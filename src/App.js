@@ -12,7 +12,7 @@ class App extends Component {
         monsters: [],
         searchField: ""
       }
-      
+
     };
 
 
@@ -37,6 +37,8 @@ render() {
 
   return (
       <div className="App">
+        <h1>Monsters Page</h1>
+        <br />
         <SearchBox
           placeholder="search monsters...."
           handleChange={this.handleChange}/>
