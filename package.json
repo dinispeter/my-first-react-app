@@ -2,7 +2,7 @@
   "name": "my-first-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dinispeter.github.io/my-first-react-app",
+
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
@@ -17,6 +17,7 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
+
   "eslintConfig": {
     "extends": "react-app"
   },
